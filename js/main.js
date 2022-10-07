@@ -14,7 +14,7 @@ btnDisagree.onmouseover= function () {
     var x = 10;
     var indexMove = Math.floor(Math.random() * (400 - (-400) + 1)) + -50;
 
-    btnDisagree.style.transform='translateX('+indexMove+'px) translateY('+indexMove+'px)';
+    btnDisagree.style.transform='translateX('+indexMove+'%) translateY('+indexMove+'%)';
     panel_tuchoi.style.opacity='0';
     console.log(indexMove);
 }
